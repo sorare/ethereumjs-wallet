@@ -1,11 +1,10 @@
 {
   "name": "@sorare/ethereumjs-wallet",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Utilities for handling Ethereum keys",
   "main": "src/index.ts",
   "files": [
     "src",
-    "module.d.ts",
     "tsconfig.json"
   ],
   "scripts": {
@@ -47,10 +46,14 @@
     "@ethereumjs/config-coverage": "^2.0.0",
     "@ethereumjs/config-typescript": "^2.0.0",
     "@ethereumjs/eslint-config-defaults": "^2.0.0",
+    "@types/aes-js": "^3.1.1",
     "@types/bn.js": "^5.1.0",
     "@types/lodash.zip": "^4.2.6",
     "@types/mocha": "^9.0.0",
     "@types/node": "^12.0.10",
+    "@types/randombytes": "^2.0.0",
+    "@types/utf8": "^3.0.1",
+    "@types/uuid": "^8.3.4",
     "ethers": "^4.0.33",
     "husky": "^4.2.5",
     "karma": "^6.3.4",
