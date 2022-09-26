@@ -16,9 +16,9 @@ import { scrypt } from 'scrypt-js'
 export { default as hdkey } from './hdkey'
 export { default as thirdparty } from './thirdparty'
 
-const bs58check = require('bs58check')
-const randomBytes = require('randombytes')
-const uuidv4 = require('uuid').v4
+import bs58check from 'bs58check'
+import randomBytes from 'randombytes'
+import { v4 as uuidv4 } from 'uuid'
 
 // parameters for the toV3() method
 

@@ -4,8 +4,8 @@ import { scrypt } from 'scrypt-js'
 
 import Wallet from './index'
 
-const utf8 = require('utf8')
-const aesjs = require('aes-js')
+import utf8 from 'utf8'
+import aesjs from 'aes-js'
 
 function runCipherBuffer(cipher: crypto.Cipher | crypto.Decipher, data: Buffer): Buffer {
   return Buffer.concat([cipher.update(data), cipher.final()])

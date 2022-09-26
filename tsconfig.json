@@ -1,4 +1,18 @@
 {
-  "extends": "@ethereumjs/config-typescript",
-  "include": ["src/**/*.ts", "test/**/*.ts"]
+  "compilerOptions": {
+    "sourceMap": true,
+    "declaration": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "strict": true,
+    "target": "ES2017",
+    "lib": ["es2018"],
+    "noEmit": true,
+  }
 }
