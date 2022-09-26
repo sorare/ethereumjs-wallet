@@ -1,5 +1,0 @@
-declare module 'bs58check'
-declare module 'randombytes'
-declare module 'uuid'
-declare module 'utf8'
-declare module 'aes-js'
