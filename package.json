@@ -1,12 +1,11 @@
 {
   "name": "@sorare/ethereumjs-wallet",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Utilities for handling Ethereum keys",
   "main": "src/index.ts",
   "files": [
     "src",
-    "dist",
-    "dist.browser"
+    "module.d.ts"
   ],
   "scripts": {
     "build": "tsc",
